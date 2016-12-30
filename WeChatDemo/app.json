@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "Purple",
+    "navigationBarTitleText": "测试项目",
+    "navigationBarTextStyle":"Yellow"
+  },
+   "tabBar": {
+     "list": [{
+       "pagePath": "pages/index/index",
+       "text": "我",
+       "iconPath": "pages/Images/tab_bar_me_normal",
+       "selectedIconPath": "pages/Images/tab_bar_me_selected"
+     },
+     {
+      "pagePath": "pages/index/index",
+       "text": "圈子",
+       "iconPath": "pages/Images/tab_bar_post_normal",
+       "selectedIconPath": "pages/Images/tab_bar_post_selected"
+     }]
+   }
+}
